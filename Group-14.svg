@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Page-2" transform="translate(-1067.000000, -1724.000000)">
+            <g id="Always-Improving-Section-Copy" transform="translate(946.000000, 1724.000000)">
+                <g id="Toggle-Button-Copy" transform="translate(121.000000, 0.000000)">
+                    <g id="Arrow-Button">
+                        <g id="Group">
+                            <g id="Group-14">
+                                <circle id="Oval-9" fill="#FFB1B3" cx="32.5" cy="32.5" r="32.5"></circle>
+                                <g id="thread" transform="translate(32.687500, 32.812500) rotate(-270.000000) translate(-32.687500, -32.812500) translate(21.187500, 15.812500)" fill-rule="nonzero" fill="#FB3D42">
+                                    <polygon id="Shape" points="2.29798828 5.95438281 2.29798828 11.410918 20.6781758 7.23403125 20.6781758 5.95438281"></polygon>
+                                    <polygon id="Shape" points="2.29798828 22.3928516 2.29798828 24.8193359 20.6781758 20.6423828 20.6781758 18.2158984"></polygon>
+                                    <polygon id="Shape" points="2.29798828 17.9233789 2.29798828 20.3498633 20.6781758 16.1729102 20.6781758 13.7464258"></polygon>
+                                    <polygon id="Shape" points="2.29798828 13.4539063 2.29798828 15.8803906 20.6781758 11.7034375 20.6781758 9.27701953"></polygon>
+                                    <polygon id="Shape" points="2.29798828 26.8622578 2.29798828 28.0455508 20.6781758 28.0455508 20.6781758 22.6853711"></polygon>
+                                    <rect id="Rectangle-path" x="0.0632851563" y="0" width="22.8497266" height="3.96226172"></rect>
+                                    <rect id="Rectangle-path" x="0.0632851563" y="30.0375391" width="22.8497266" height="3.96226172"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
