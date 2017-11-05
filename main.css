@@ -1,76 +1,166 @@
 html,body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
+	color: #6B7C93;
 }
 li{
 	list-style-type: none;
+	
+}
+ul{
+	padding: 0;
+}
+.row{
+	margin: 0;
 }
 .right-top-header *{
 	display: inline-block;
 	padding-right: 20pt;
-}
+	text-decoration: none;
+    color: black;
+}/*
+.right-top-header *:hover{
+    border-bottom:2px solid red;
+}*/
 .header-button {
-    background-color: #FB3D42;
-    border-color: #FB3D42;
-    color: #ffffff;
+	background-color: #FB3D42;
+	border-color: #FB3D42;
+	color: #ffffff;
+	padding-right: 20px;
+	padding-left: 20px;
 }
-
 .header-container{
 	height: 70pt;
 	margin-left: auto;
 	margin-right: auto;
-	    display: list-item;
+	display: list-item;
+	padding-left: 100px;
+    padding-right: 100px;
+}
+.logo-picture{
+	width: 170px;
+	padding-right: 15px;
 }
 #showcase{
-	background: red;
 	height: 415px;
-    display: flex;
-    align-items: center;
+	background-image:  url("intro_1920.png");
+	background-position: top;
+	display: flex;
+	align-items: center;
+	padding-left: 150px;
 }
-.show-button {
-    background-color: #ffffff !important;
-    border-color: #ffffff;
-    color: #000000;
+#showcase-contacts{
+	height: 235px;
+	background-image:  url("call_to_action_1920.png");
+	background-position: top;
+	display: flex;
+	align-items: center;
+	padding-left: 150px;
+}
+.picture-showcase-top{
+	width: 100%;
+	height: 415px;
+	position: absolute;
+	z-index: -1;
+	left: 0;
 }
 .showcase :nth-child(1){
-    color: white;
-    font-weight: bold;
-    font-size: 54px;
+	color: white;
+	font-weight: bold;
+	font-size: 54px;
 }
 .showcase :nth-child(2){
-	    font-size: 30px;
-    color: #840505;
+	font-size: 30px;
+	color: #840505;
 }
 .showcase :nth-child(3){
 	font-size: 20px;
-    color: white;
+	color: white;
+}
+.show-button {
+	background-color: #ffffff !important;
+	border-color: #ffffff;
+	color: #000000;
+}
+.text-center {
+    padding-top: 50px;
 }
 .text-center :nth-child(2){
 	text-align: center;
-    width: 800px;
-    margin: auto;
+	width: 800px;
+	margin: auto;
 }
 .picture-logo{
-	width: 50px;
-	height: 50px;
-	background: red;
-	border-radius: 50%;
+	width: 65px;
+	height: 65px;
 	margin: auto;
+}
+h3{
+	color: #FB3D42;
+}
+.resad-more{
+	color: #FB3D42;
 }
 .align-center{
 	text-align: center;
 	margin: 30px 0 30px 0;
 }
-.items-conteiner{
-	margin: 50px 150px 50px 150px;
-}
-.facebook-logo{
-    width: 30px;
-    height: 30px;
-    background: red;
-    color: white;
-    border-radius: 50%;
-    font-size: 26px;
-    padding: 7px;
-    padding-left: 10px;
-}
+    .cell-border{
+    	border-right: 2px solid #F6F9FC;
+    	border-bottom: 2px solid #F6F9FC;
+    	padding: 20px;
+    }
+    .cell-border:nth-child(3n){
+    	border-right: none;
+    }
+    .cell-border:nth-child(n+7){
+    	border-bottom: none;
+    }
+    .items-conteiner{
+    	margin: 50px 150px 50px 150px;
+    }
+    #showcase-bottom{
+    	height: 285px;
+    	background-image:  url("call_to_action_1920.png");
+    	background-position: top;
+    	display: flex;
+    	align-items: center;
+    	padding-left: 100px;
+  	}
+    .showcase-bottom :nth-child(1){
+    	color: white;
+    	font-weight: bold;
+    	font-size: 30px;
+    }
+    .show-button{
+    width: 150px;
+    height: 40px;
+    } 
+    .showcase-bottom :nth-child(2){
+    	font-size: 20px;
+    	color: #ffffff;
+    }
+    .picture-showcase-bottom{
+    	width: 100%;
+    	height: 285px;
+    	position: absolute;
+    	z-index: -1;
+    	left: 0;
+    }
+    .left-bottom-position{
+display: inline-block;
+    color: black;
+    padding-left: 15px;
+    font-size: 12px;
+    border-left: 2px solid #dadada;
+    }
+    .facebook-logo{
+    	width: 30px;
+    	height: 30px;
+    	background: red;
+    	color: white;
+    	border-radius: 50%;
+    	font-size: 26px;
+    	padding: 7px;
+    	padding-left: 10px;
+    }
