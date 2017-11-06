@@ -40,6 +40,10 @@ a{
 	padding-left: 100px;
     padding-right: 100px;
 }
+/*.header-container :nth-child(2){
+	float: none ;
+}*/
+	
 .logo-picture{
 	width: 170px;
 	padding-right: 15px;
@@ -196,7 +200,7 @@ display: inline-block;
     	padding: 7px;
     	padding-left: 10px;
     }
-    body {margin:0;}
+
 .topnav {
   overflow: hidden;
  
@@ -211,15 +215,14 @@ display: inline-block;
   text-decoration: none;
   font-size: 17px;
 }
-/*.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}*/
+.topnav a:hover {
+ border-bottom: 2px solid #FB3D42;
+}
 .topnav .icon {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -227,7 +230,7 @@ display: inline-block;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
