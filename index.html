@@ -9,25 +9,29 @@
 </head>
 <body>
 	<div class="header-container">
-		<div class="row">
-			<div class="col-xs-6">
-				<img class="logo-picture" src="logo_h_colored.svg">
-			</div>
-			<div class="col-xs-6">
-				<ul class="right-top-header">
-					<li>
-						<a href="index.html">Головна</a>
-					</li>
-					<li>
-						<a href="galary.html">Галерея</a>
-					</li>
-					<li>
-						<a href="contacts.html">Контакти</a>
-					</li>
-					<li><button type="button" class="header-button  btn btn-default">Замовити</button></li>
-				</ul>
-			</div>
-		</div>
+		<div class="topnav id="myTopnav" row">
+          <div class="col-xs-6">
+              <a href="index.html"><img class="logo-picture" src="logo_h_colored.svg"></a>
+          </div>
+          <div class="col-xs-6">
+              <a href=""></a>
+              <a href="#news">Головна</a>
+              <a href="#contact">Галерея</a>
+              <a href="#about">Контакти</a>
+              <a href=""> <button type="button" class="header-button  btn btn-default">Замовити</button>
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 	</div>
 	<div id="showcase">
 		<div>
@@ -170,7 +174,7 @@
 				<div class="row">
 					<div class="col-xs-6">
 						<span>
-							<img class="logo-picture" src="logo_h_colored.svg">
+							<a href="index.html"><img class="logo-picture" src="logo_h_colored.svg"></a> 
 						</span>
 						<span class="left-bottom-position">Ліцензія №184478 <br> від16.07.2013 р. видана ДСНС України</span>
 					</div>
